@@ -28,10 +28,9 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 			<td><xsl:value-of select = "incentive"/></td>
 			<td><xsl:value-of select = "yoe"/></td>			
 		</tr>
-	</xsl:for-each>
-</table>
-</center>
-	</body>
-</html>
+			</xsl:for-each>
+			</table>
+		</center></body>
+	</html>
 </xsl:template>
 </xsl:stylesheet>
